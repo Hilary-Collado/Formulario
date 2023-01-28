@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-header.css">
+    <link rel="stylesheet" href="css/style-input.css">
+    <link rel="stylesheet" href="css/style-button.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+    <title>Formulario-index</title>
+</head>
+
+<body>
+    <header class="header-in">
+        <section class="titulo">
+            <h1 class="formo">Formulario</h1>
+        </section>
+    </header>
+    <section class="datos-registro">
+        <form action="./registro_concluido.html" class="formulario flex flex--column">
+            <div class="input-container">
+                <label class="input-label" for="name">Nombre</label>
+                <input name="name" id="name" class="input" type="text" placeholder="Ingresa Tu Nombre" required
+                    data-tipo="apellido">
+            </div>
+            <div class="input-container">
+                <label class="input-label" for="name">Apellido</label>
+                <input name="apellido" id="apellido" class="input" type="text" placeholder="Ingresa Tu Apellido"
+                    required data-tipo="apellido">
+            </div>
+            <div class="input-container">
+                <label class="input-label" for="name">Email</label>
+                <input name="email" id="email" class="input input-email" type="email" placeholder="Ingresa Tu Email"
+                    required data-tipo="email">
+            </div>
+            <div class="input-container">
+                <label class="input-label" for="name">Numero de Contacto</label>
+                <input name="phoneNumber" id="phoneNumber" class="input input-contacto" type="text"
+                    placeholder="Número telefónico" pattern="\d{10}" required minlegth="10" maxlength="10"
+                    data-tipo="numero">
+            </div>
+            <div class="input-container">
+                <label class="input-label" for="name">Dirección</label>
+                <input name="direccion" id="direccion" class="input" type="text" placeholder="Ingresa Tu Dirección"
+                    required pattern="[\s\S]{10,40}" data-tipo="direccion">
+            </div>
+            <div class="input-container">
+                <label class="input-label" for="name">Pais</label>
+                <input name="pais" id="pais" class="input" type="text" placeholder="Ingresa Tu Pais" required
+                    pattern="[\s\S]{4,30}" required data-tipo="pais">
+            </div>
+            <div class="input-container">
+                <label class="input-label" for="name">Contraseña</label>
+                <input name="password" id="password" class="input" type="password" placeholder="Ingresa La Contraseña"
+                    required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+                    title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
+                    data-tipo="password">
+            </div>
+            <a href="registro.html"><button type="submit" class="button button-reg">Registrar</button></a>
+            <a href=""><button type="submit" class="button button-salir">Salir</button></a>
+        </form>
+    </section>
+</body>
+<footer>
+    <p class="copy copy-inicio">&copy Copyright - <script>
+        document.write(new Date().getFullYear());
+            </script>
+    </p>
+</footer>
+<script src="style.js"></script>
+
+</html>

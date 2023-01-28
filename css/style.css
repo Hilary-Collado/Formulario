@@ -1,0 +1,20 @@
+body{
+    width: 960px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.datos-registro{
+    background-color: white;
+    padding: 1rem;
+    justify-items: center;
+    width: 940px;
+    margin: auto;
+}
+
+.copy{
+    color: #19535F;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+

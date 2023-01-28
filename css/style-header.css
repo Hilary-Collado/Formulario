@@ -1,0 +1,20 @@
+.header-in{
+    background-color: #19535F;
+    padding: 6px 0;
+    line-height:0;
+    width: 100%;
+    height: auto;
+}
+
+.titulo{
+    width: 940px;
+    position: relative;
+    margin: 0 auto ;
+    height: auto;
+}
+
+.formo{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    letter-spacing: 0.2em;
+}

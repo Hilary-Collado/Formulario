@@ -1,0 +1,27 @@
+.img-inicio{
+    width: 500px;
+    height: 400px;
+    float: left;
+     margin-right: 1em;
+}
+
+.a-inicio{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.copy-inicio{
+    padding: 4em 0 0;
+}
+
+.formo-inicio{
+    color: #19535F;
+}
+
+.div-form{
+   background-color: #19535F;
+   padding: 0.5px;
+   margin-top: -24px
+}

@@ -1,0 +1,48 @@
+.button {
+    border-radius: 10px;
+    width: 150%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    max-width: 10rem;
+    padding: 1rem;
+    align-self: center;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    block-size: auto;
+    cursor: pointer;
+}
+
+.button:hover{
+    transition: 1s;
+    max-width: 12rem;
+    font-size: 20px;
+}
+
+.button-reg{
+    background-color: #19535F;
+    border: none;
+    color: white;
+    display: inline-block;
+}
+
+.button-salir{
+border-color: #19535F;
+    color: #19535F;
+    display: inline-block;
+}
+
+.button-salida{
+    background-color: #19535F;
+    border: none;
+    color: white;
+    width: 8rem;
+}
+
+.button-registra{
+    background-color: #19535F;
+    border: none;
+    color: white;
+    display: inline-block;
+}

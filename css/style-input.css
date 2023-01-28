@@ -1,0 +1,43 @@
+.input-container{
+    background-color: white;
+    padding: 10px;
+    padding-right: 20px;
+    display: inline-block; 
+    top: 50%;
+    left: 50%;
+}
+
+.input{
+    border-radius: 10px;
+    padding: 1rem;
+    margin: auto;
+    box-sizing: content-box;
+    width: 365px;
+ 
+    border: none;
+    outline: none;
+
+    background-color: #D8DCFF;
+    font-size: 20px;
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+}
+
+.input-label{
+    font-size: 25px;
+    padding: 1rem;
+    position: relative;
+    margin:0 ;
+    font-style: bold 700;
+    
+}
+
+.input-email{
+    block-size: auto;
+    width: 800px;
+}
+
+.input-contacto{
+    block-size: auto;
+    width: 800px;
+}

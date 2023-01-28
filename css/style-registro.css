@@ -1,0 +1,28 @@
+
+.checkmark-registro{
+    width: 4rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.listo-registro{
+    padding: 5% 0 0 0;
+    text-align: center;
+}
+
+.text-registro{
+    font-size: larger;
+    font-weight: bold; 
+}
+
+
+.a-registro{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.copy-registro{
+    padding: 15em 0 0;
+}
